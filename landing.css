@@ -1,7 +1,13 @@
+
+/* html 100% makes de image body to take a 100% of the height, what makes image not to repeat. */
+html{
+	height: 100%;
+}
+
 body{
-	background-image: url(img/cat1.jpg);
+	background-image: url(img/background-app.jpg);
 	background-size: cover;
-	background-position: no-repeat center;
+	background-position: center;
 	font-family: 'Lato', sans-serif;
 }
 
